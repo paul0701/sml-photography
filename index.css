@@ -1,0 +1,103 @@
+* {
+    font-family: 'Paytone One', sans-serif;
+}
+
+.header-text {
+    margin: 0 auto;
+    text-align: center;
+}
+.header-text > h1 {
+    font-size: 100px;
+    margin-bottom: -10px;
+}
+.header-text > h4 {
+    font-size: 18px;
+    margin-left: 100px;
+}
+.header-text > h2 {
+    letter-spacing: 2px;
+}
+.nav-item {
+    font-size: 18px;
+}
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.quotes-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.social_icons {
+    font-size: 30px;
+}
+
+.nav-item:hover, .landscape-text:hover {
+    text-decoration: underline;
+    transform: scale(1.5);
+}
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    width: 45vw;
+    margin: 0 auto;
+   
+}
+.profile-picture {
+    background: url('https://scontent.fgba1-1.fna.fbcdn.net/v/t1.6435-9/118479667_3330501856995318_234446492024836463_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_ohc=Tn9lagJzg9YAX_CanFj&_nc_ht=scontent.fgba1-1.fna&oh=00_AT9DO2LsvDaYDL2WAQ6wzRsjxZAcw3MUBsuLwQpsBSnYPw&oe=631B058A');
+    background-size: cover;
+    border-radius: 200px 200px 200px 200px;
+    width: 400px;
+    height: 400px;
+}
+.profile-text {
+    align-self: center;
+    background-color: whitesmoke;
+    
+}
+.contact {
+    font-size: 24px;
+}
+    
+
+@media screen and (max-width: 450px) {
+    .header-text > h1 {
+        font-size: 80px;
+    }
+    .header-text > h4 {
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    .header-text > h2 {
+        font-size: 16px;
+    }
+
+   .nav-item {
+    font-size: 14px;
+   }
+   .quotes {
+    font-size: 20px;
+   }
+   .about-me{
+    width: 80vw;
+    padding: 10px;
+   }
+   .profile-picture {
+    height: 300px;
+    width: 300px;
+    grid-column: span 2;
+   }
+   .profile-text {
+    transform: scale(.8);
+    grid-column: span 2;
+   }
+
+   .footer {
+    font-size: 14px;
+   }
+}
+
